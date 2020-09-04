@@ -1,0 +1,22 @@
+{
+  "name": "pagina-practicas",
+  "version": "1.0.0",
+  "description": "La página para el proyecto fase 2 de prácticas supestamente supervisadas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WalterMR/P-gina_Web_Fase2.git"
+  },
+  "author": "Alssdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WalterMR/P-gina_Web_Fase2/issues"
+  },
+  "homepage": "https://github.com/WalterMR/P-gina_Web_Fase2#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
