@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  /*font-style: italic;*/
+}
+.header {
+    background-color: white;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.container-nav {
+    /*border: 1px solid red;*/
+    width: auto;
+    /* width:100%; */
+    flex: 1;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    flex-wrap: wrap;
+  }
+  .container-img-logo{
+    display: flex;
+    width: 50px;
+    padding: 0 30px;
+  }
+.menu{
+    height: inherit;
+    width: inherit;
+    justify-content: right;
+    align-content: center;
+}
+
+
+.menu ol{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 16px;
+    padding: 12px 0;
+}
+.menu ol li{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 16px;
+}
+
+.menu ol li a{
+    font-size: 16px;
+    height: 16px;
+    display: flex;
+    text-decoration: none;
+    color: teal;
+    padding: 0 30px;
+    font-weight: bold;
+}
