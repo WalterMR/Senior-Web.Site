@@ -1,5 +1,5 @@
 body{
-    font-family: sans-serif;
+    font-family: "Oswald";
     margin: 0;
 }
 
@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6{
-  font-family: 'Fjalla One', sans-serif;
+  
   font-weight: normal;
   /*font-style: italic;*/
 }
@@ -62,11 +62,93 @@ h6{
 }
 
 .menu ol li a{
+    font-family: "Oswald";
     font-size: 16px;
     height: 16px;
     display: flex;
     text-decoration: none;
-    color: teal;
+    color: #111112;
     padding: 0 30px;
     font-weight: bold;
 }
+.hero img {
+    max-width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.container-text {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #111112;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .vacio{
+      width: 100%;
+      height: 120px;
+      background-color: white;
+  }
+  .portafolio{
+      width: 100%;
+      height: 512px;
+      color: white;
+  }
+  .container-portafolio{
+      padding: 100px 800px 220px 300px;
+      background-color: #111112;
+      color: white;
+  }
+  .container-portafolio h1{
+      font-size: 60px;
+  }
+  .container-portafolio p{
+      font-family: "Merriweather";
+      font-weight: 300;
+      font-size: 16px;
+      letter-spacing: 2px;
+      line-height: 25px;
+
+  }
+  .portafolio h1{
+      font-weight: bold;
+  }
+  .cuadritos{
+      display: flex;
+  }
+  .container-cuadritos{
+      width: 353px;
+      height: 447px;
+  }
