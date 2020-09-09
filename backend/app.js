@@ -30,6 +30,7 @@ app.use(express.json());
 
 // routes
 app.use(require('./routes/index'));
+app.use('/services', require('./routes/services'));
 
 // public files
 app.use(express.static(path.join(__dirname, 'public')));
