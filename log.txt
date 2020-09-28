@@ -1,0 +1,176 @@
+commit 38ce67aaafac668cfa23a07c537d75fb1c5f5a6d
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 23:51:32 2020 +0200
+
+    final
+
+commit 0e2b914fc13c03efa776980635de4772fd812054
+Merge: 62e02c0 0de03d5
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 23:30:00 2020 +0200
+
+    Merge branch 'master' into backend
+
+commit 0de03d5a394dc4159795733e845a7b3e8f2803ce
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Mon Sep 28 22:45:41 2020 -0600
+
+    Diseño final de todas las páginas :D
+
+commit e44368b7287dcfcfc18fb6896b3490611a175ad2
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Mon Sep 28 22:18:40 2020 -0600
+
+    Comienzo el diseño de reseña
+
+commit c7c636b9260b9535d170105be3aab37d23c59e9d
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Mon Sep 28 20:36:28 2020 -0600
+
+    Re diseño del área de Servicios
+
+commit d999c7aae765cc980e3144a7b99bc865c3fe10a2
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Mon Sep 28 19:37:43 2020 -0600
+
+    Finalizado el home(solo falta linkear el instagram
+
+commit 790973b75cf668a5dd7e17f94574777b89e8a1be
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Mon Sep 28 18:48:25 2020 -0600
+
+    Re diseño del home, y rediseño del Servicios
+
+commit 62e02c0e555962f94acab1e6ae26fea0115519fe
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 23:25:51 2020 +0200
+
+    Plantilla de correos
+
+commit 361f9926a264ef6906258121a5597581cb412310
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 22:58:07 2020 +0200
+
+    Enío de correos electrónicos
+
+commit b38bfc8fc57ae20797c6aea5abf39a847363eb6b
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 22:39:27 2020 +0200
+
+    Ruta GET /review
+
+commit 047231c7cd8fcd51904a9b307adcc34d1cf47ae2
+Merge: d0969f4 e44368b
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 22:19:20 2020 +0200
+
+    Merge branch 'master' into backend
+
+commit d0969f4f614c544d7fdb3a4b0642a138377a43ff
+Author: alssdev <alssdev3@gmail.com>
+Date:   Mon Sep 28 22:18:18 2020 +0200
+
+    Rutas GET / y GET /services
+
+commit 842789b8f4ec34e5286502b6146309dcd307182f
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Sun Sep 27 23:55:53 2020 -0600
+
+    rediseño del home, con degradado
+
+commit a6cec368598f062923ea8fd7748469879879e0ea
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Sun Sep 27 17:04:59 2020 -0600
+
+    Termino el prototipo del por que (se aceptan sugerencias)
+
+commit 4a7077c4dea0da1dd964d7afc248a5d09172e2ce
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Sun Sep 27 12:45:15 2020 -0600
+
+    arreglo del contact
+
+commit db5278fdd63b36f62e26af9f15d11a1d1206af6c
+Merge: 0b3ff26 149cfe2
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Sat Sep 26 18:12:23 2020 -0600
+
+    rediseño del area de contactos, re diseño a nuestro servicio, rediseño a los cuadros y linkeados
+
+commit 0b3ff2620f70f22333713300dab74b8de3d76b9a
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Sat Sep 26 18:06:03 2020 -0600
+
+    rediseño del area de contactos, re diseño a nuestro servicio, rediseño a los cuadros y linkeados
+
+commit 149cfe2ceb8f00aaf7eb8ddf195ccbfd4439b63c
+Author: Alessandro Morales <alssdev3@gmail.com>
+Date:   Fri Sep 25 07:25:25 2020 -0600
+
+    Se agregó atribución
+
+commit d6299d4ec1f647741642f42a4239a16a475576ec
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Thu Sep 24 23:10:54 2020 -0600
+
+    Hoy si la página
+
+commit 63b4b52c2f712197d5b39168eaea77d5d15a26a8
+Author: WalterMR <59482654+WalterMR@users.noreply.github.com>
+Date:   Thu Sep 24 23:10:15 2020 -0600
+
+    Update index.html
+
+commit 62fc1d3b52454e867d5f06868de6f47dc674d113
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Thu Sep 24 23:08:20 2020 -0600
+
+    Termino la primera versión del home
+
+commit 55609b6a28ef28a9a9ffd361029596557be3c3a8
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Thu Sep 10 20:52:38 2020 -0600
+
+    Termine la parte de los cuadritos
+
+commit a5b3fb9f279bb2856054f6dd01f24a373e8c262e
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Wed Sep 9 13:27:09 2020 -0600
+
+    Termino plantilla del hero, header del portafolio y dejo plantilla para los cuadritos
+
+commit 1e744c3df7bb89c26cb96ed44216cf6cae7517d0
+Author: alssdev <alssdev3@gmail.com>
+Date:   Fri Sep 4 10:03:27 2020 -0600
+
+    initial route
+
+commit 49920a20765c65e84b6b6719ede4eb22bf4c5f09
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Fri Sep 4 09:49:06 2020 -0600
+
+    Carpeta images adentro de frontend
+
+commit a4b19a84bda7190eecb02eda9badaac2d1986c00
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Fri Sep 4 09:43:21 2020 -0600
+
+    Header ya hecho con carpeta de images
+
+commit afc7229da97248984a754cc28ac55b6cabaac3ad
+Author: alssdev <alssdev3@gmail.com>
+Date:   Fri Sep 4 09:32:25 2020 -0600
+
+    backend init
+
+commit 78edccae5b2e905992801a8ddbce2a5e4ec62672
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Fri Sep 4 08:55:54 2020 -0600
+
+    Inicio del css con el header
+
+commit f5288aa1342ec11d8b6766bccebfbdf2f575802e
+Author: WalterMR <walter.moralesr17@gmail.com>
+Date:   Fri Sep 4 08:54:24 2020 -0600
+
+    Inicio del html
