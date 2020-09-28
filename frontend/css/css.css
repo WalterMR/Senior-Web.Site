@@ -203,14 +203,19 @@ h6{
   .container-portafolio a{
     color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 28px;
     transition: .5s ease;
     padding: 5px;
+    border: 2px solid white;
   }
   .container-portafolio a:hover{
     background-color: white;
     border-radius: 5px;
     color: #111112;
+  }
+  .wrapper_saber{
+    margin-top: 70px;
+    
   }
   .container-portafolio h1{
       font-size: 60px;
