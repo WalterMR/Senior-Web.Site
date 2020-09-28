@@ -85,26 +85,26 @@
     </div>
 </section>
 <section id="contactanos" class="contact">
-    <div class="container_c">
-        <div class="container_con">
-            <form action="/suscripcion/" class="form-email">
-                <h3>¿TIENES DUDAS?</h3>
-                <div class="container_input">
-                    <input type="text" placeholder="Nombre" id="name">
-                    <input type="text" placeholder="Apellido" id="last_name">
-                </div>
-                <div class="container_input input_correo">
-                    <input size="52" type="text" placeholder="Correo Electronico" id="email">
-                </div>
-                <button>Enviar</button>
-            </form>
-        </div>
-        <div class="social">
-            <a href="" class="social-link twitter"></a>
-            <a href="https://github.com/WalterMR/Senior-Web.Site" class="social-link github"></a>
-            <a href="" class="social-link instagram"></a>
-        </div>
+<div class="container_c">
+    <div class="container_con">
+        <form action="/sucription" class="form-email" method="POST">
+            <h3>¿TIENES DUDAS?</h3>
+            <div class="container_input">
+                <input type="text" name="name" placeholder="Nombre" id="name" required>
+                <input type="text" name="lastname" placeholder="Apellido" id="last_name" required>
+            </div>
+            <div class="container_input input_correo">
+                <input size="52" name="email" type="email" placeholder="Correo Electronico" id="email" required>
+            </div>
+            <button>Enviar</button>
+        </form>
     </div>
+    <div class="social">
+        <a href="" class="social-link twitter"></a>
+        <a target="_blank" href="https://github.com/WalterMR/Senior-Web.Site" class="social-link github"></a>
+        <a target="_blank" href="" class="social-link instagram"></a>
+    </div>
+</div>
 </section> 
 <footer class="footer">
     <div>

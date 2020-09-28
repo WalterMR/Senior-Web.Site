@@ -82,14 +82,14 @@
 <section id="contactanos" class="contact">
 <div class="container_c">
     <div class="container_con">
-        <form action="/subscription" class="form-email" method="POST">
+        <form action="/sucription" class="form-email" method="POST">
             <h3>¿TIENES DUDAS?</h3>
             <div class="container_input">
-                <input type="text" placeholder="Nombre" id="name">
-                <input type="text" placeholder="Apellido" id="last_name">
+                <input type="text" name="name" placeholder="Nombre" id="name" required>
+                <input type="text" name="lastname" placeholder="Apellido" id="last_name" required>
             </div>
             <div class="container_input input_correo">
-                <input size="52" type="text" placeholder="Correo Electronico" id="email">
+                <input size="52" name="email" type="email" placeholder="Correo Electronico" id="email" required>
             </div>
             <button>Enviar</button>
         </form>
