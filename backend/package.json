@@ -18,7 +18,8 @@
 	"homepage": "https://github.com/WalterMR/P-gina_Web_Fase2#readme",
 	"dependencies": {
 		"express": "^4.17.1",
-		"express-handlebars": "^5.1.0"
+		"express-handlebars": "^5.1.0",
+		"nodemailer": "^6.4.11"
 	},
 	"devDependencies": {
 		"morgan": "^1.10.0",
