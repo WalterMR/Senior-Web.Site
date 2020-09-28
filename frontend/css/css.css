@@ -1,7 +1,7 @@
 body{
     font-family: "Oswald";
     margin: 0;
-    background-color: hsl(223, 33%, 96%);
+    background-color: white;
 }
 
 h1, 
@@ -70,17 +70,33 @@ h6{
     height: 16px;
     display: flex;
     text-decoration: none;
-    color: #393b44;
+    color: #28df99;
     padding: 0 30px;
     font-weight: bold;
 }
 .menu ol li a:hover{
   font-size: 20px;
+  color: #99f3bd;
 }
-.hero img {
+.hero {
+    background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/512884-blue-degree-gradient.jpg");
     max-width: 100%;
     height: 600px;
-    object-fit: cover;
+    object-fit: fill;
+    color: white;
+    text-align: center;
+    
+}
+.wrapper_hero{
+  display: inline-block;
+  justify-content: center;
+  padding: 200px 0px 0px;
+}
+.hero h1{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 64px;
+  color: white;
 }
 .container-text {
     position: relative;
@@ -99,7 +115,7 @@ h6{
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: #d6e0f0;
+    background-color: #28df99;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -215,7 +231,8 @@ h6{
     border-radius: 10px;
     flex-shrink: 0;
     overflow: hidden;
-    background: #f1f3f8;
+    background: white;
+    color: white;
   }
   .event img {
     width: 533px;
@@ -226,22 +243,33 @@ h6{
   .event-detail {
     margin: 20px 40px;
     margin-top: -40px;
-    background-color: #d6e0f0;
+    background: -webkit-linear-gradient(right, #2ec1ac , #28df99); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left #2ec1ac, #28df99); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left#2ec1ac, #28df99); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to left#2ec1ac , #28df99); /* Standard syntax */
     position: relative;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    
   }
   .event-description {
     text-align: left;
+    margin-bottom: 40px;
   }
   .event-url {
-    border: 1px solid #8d93ab;
+    border: 2px solid white;
     padding:5px 20px;
     text-decoration: none;
-    color: #8d93ab;
+    color: white;
     border-radius: 5px;
     margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .event-url:hover{
+    background-color: white;
+    color: #28df99;
   }
   .container_c {
     /*border: 1px solid red;*/
@@ -256,7 +284,7 @@ h6{
     flex-wrap: inherit;
   }
   .contact {
-    background-color: #8d93ab;
+    background-color: #3e978b;
     color: white;
     height: auto;
     display: flex;
@@ -264,14 +292,15 @@ h6{
     justify-content: space-between;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    margin-top: 50px;
   }
   .social {
   }
   .social-link {
     display: inline-block;
-    width: 50px;
+    width: 100px;
     height: 50px;
-    background-size: 50px 50px;
+    background-size: 100px 50px;
     margin:  0 10px;
   }
   .social-link.twitter {
@@ -287,7 +316,7 @@ h6{
     background-image: url('../images/instagram.svg');
   }
   .form-email input{
-    border-color: gray;
+    border-color: transparent;
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
@@ -296,6 +325,7 @@ h6{
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
+    margin: 3px;
   }
   .form-email button {
     display: block;
@@ -303,23 +333,29 @@ h6{
     background: transparent;
     color: white;
     padding: 10px 0px;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 100px;
     margin-top: 10px;
-    border: 2px white solid;
-    text-transform: ;
+    border: 3px white solid;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .form-email button:hover{
+    background-color: white;
+    color: #28df99;
   }
   .form-email h3 {
     font-family: 'Oswald', sans-serif;
   }
   .footer {
     color: white;
-    background-color: #1b2127;
+    background-color: #111112;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1em;
+    
   }
   .container_con {
     /*border: 1px solid red;*/
@@ -341,4 +377,8 @@ h6{
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+  }
+  .prueba{
+    background-color: black;
+    color: white;
   }
