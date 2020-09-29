@@ -54,16 +54,19 @@ h6{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    height: 16px;
-    padding: 12px 0;
+    height: 100%;
+    margin: 0;
+
 }
 .menu ol li{
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    height: 16px;
+    height: 68px;
+    align-items: center;
 }
-
+.menu ol li:hover{
+  border-top: 3px solid #28df99;
+  height: 60px;
+}
 .menu ol li a{
     font-family: "Oswald";
     font-size: 16px;
@@ -72,11 +75,11 @@ h6{
     text-decoration: none;
     color: #28df99;
     padding: 0 30px;
-    font-weight: bold;
+    font-weight: bold;+
 }
 .menu ol li a:hover{
-  font-size: 20px;
   color: #99f3bd;
+
 }
 .hero {
     background-image: url("https://wallup.net/wp-content/uploads/2017/11/23/512884-blue-degree-gradient.jpg");
@@ -95,8 +98,22 @@ h6{
 .hero h1{
   margin: 0 auto;
   text-align: center;
-  font-size: 64px;
+  font-size: 100px;
   color: white;
+  transition: .5s ease;
+  padding: 0px 20px;
+  height: 150px;
+}
+.hero h1:hover{
+  border-radius: 10px;
+  color: #28df99;
+  background-color: white;
+  
+}
+.hero p{
+  font-family: "Lato";
+  font-size: 34px;
+  margin-top: 0px;
 }
 .container-text {
     position: relative;
@@ -147,29 +164,47 @@ h6{
       height: 60px;
       background-color: white;
   }
-  .portafolio{
+  .portafalio{
       width: 100%;
       height: 512px;
       color: #f1f3f8;
+      display: flex;
+  }
+  .portafalio p{
+    font-family: "Lato";
+  }
+  .portfalio{
+    width: auto;
+    background-color: #111112;
+    padding: 50px;
+    display: flex;
   }
   .portfolio{
-    width: 100%;
-    background-color: #393b44;
+    width: auto;
+    background-color: #111112;
+    padding: 50px;
+    display: flex;
+    margin-bottom: 80px;
+  }
+  .wrapper_img{
+    padding-top: 150px;
   }
   .container-portafolio{
-    background-color: #393b44;
+    background-color: #111112;
       color: #f1f3f8;
       padding: 20px;
+      border-left: 10px solid white;
   }
   .container-portafolio h1{
-      font-size: 34px;
+      font-size: 40px;
+      font-weight: 600px;
   }
   .container-portafolio p{
-      font-family: "Oswald";
+      font-family: "Lato";
       font-weight: 300;
       font-size: 18px;
       letter-spacing: 1.5px;
-      line-height: 22px;
+      line-height: 24px;
 
   }
   .portafolio h1{
@@ -220,7 +255,7 @@ h6{
     flex-wrap: wrap;
   }
   .event-title{
-    font-size: 28px;
+    font-size: 34px;
   }
   .event-list-title{
     margin-left: 20px;
@@ -249,6 +284,7 @@ h6{
     background: linear-gradient(to left#2ec1ac , #28df99); /* Standard syntax */
     position: relative;
     padding: 20px;
+    padding-bottom: 40px;
     text-align: center;
     border-radius: 10px;
     
@@ -256,6 +292,7 @@ h6{
   .event-description {
     text-align: left;
     margin-bottom: 40px;
+    font-family: "Lato";
   }
   .event-url {
     border: 2px solid white;
@@ -264,7 +301,8 @@ h6{
     color: white;
     border-radius: 5px;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    transition: .3s ease;
   }
 
   .event-url:hover{
@@ -339,10 +377,11 @@ h6{
     border: 3px white solid;
     font-weight: bold;
     font-size: 13px;
+    transition: .3s ease;
   }
   .form-email button:hover{
     background-color: white;
-    color: #28df99;
+    color: #3e978b;
   }
   .form-email h3 {
     font-family: 'Oswald', sans-serif;
