@@ -361,9 +361,6 @@ h6{
   .social-link.twitter {
     background-image: url('../images/twitter.svg');
   }
-  .social-link.facebook {
-    background-image: url('../images/facebook.svg');
-  }
   .social-link.github {
     background-image: url('../images/github.svg');
   }
@@ -375,7 +372,6 @@ h6{
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
-    background-image: url('../images/envelope.svg');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
