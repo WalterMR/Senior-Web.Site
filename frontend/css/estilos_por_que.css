@@ -139,8 +139,10 @@ color:#836ef7;
       font-size: 24px;
   }
   .hero_description p{
+    margin-top: 0;
       color: white;
-      font-size: 18px;
+      font-size: 24px;
+      text-align: center;
   }
   .hero_button{
       text-align: center;
@@ -154,11 +156,11 @@ color:#836ef7;
       object-fit: cover;
     }
 .he{
-    display: inline-block;
     align-items: center;
     justify-content: center;
     align-content: center;
     padding: 100px 0;
+    margin: 0 auto;
 }
 .hero h1{
   margin: 0 auto;
@@ -201,14 +203,33 @@ color:#836ef7;
       border-radius: 10px;
   }
   .event_title{
-      font-size: 24px;
+      font-size: 40px;
       font-weight: bold;
+      color: #be4bdb;
+  }
+  .event_title h2{
+    margin-bottom: 10px;
   }
   .event_link a{
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: white;
       text-decoration: none;
+      border-radius: 5px;
+      background: -webkit-linear-gradient(right, #be4bdb ,  #7950f2); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(left  #be4bdb,  #7950f2); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(left #be4bdb,  #7950f2); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to left  #be4bdb,  #7950f2); /* Standard syntax */
+    transition: .5s ease;
+    }
+  .event_link a:hover{
+    background: white;
+    color: #be4bdb;
+    border: 2px solid #be4bdb ;
   }
   .event_description{
     font-family: "Lato";
+    margin-bottom: 30px;
   }
   .container_letters_r{
       text-align: right;
